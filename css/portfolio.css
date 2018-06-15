@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Moon;
+    src: url("../Fonts/MOON-2.0/MOON-2.0-FREE/Moon2.0-Regular.otf");
+}
+
+body {
+    font-family: Moon;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/ios-linen/ios-linen.jpg")
+}
+
+header {
+    width: 100%;
+    padding: 2.5px 0;
+    height: 77px;
+    background-color: lightgrey;
+    border-bottom: 5px solid grey;
+    margin-bottom: 20px;
+}
+
+#headerContent {
+    text-align: center;
+    height: 76px;
+    width: 960px;
+}
+
+#myName {
+    color: white;
+    background: teal;
+    padding: 0 20px;
+    display: inline;
+    float: left;
+    height: 77px;
+    margin-left: 12.5%;
+    border: 1px solid black;
+}
+
+nav {
+    float: right;
+    margin-right: 12.5%;
+    padding-top: 25px;
+}
+
+nav p {
+    display: inline;
+    padding: 0 10px;
+}
+
+
+a:link {
+    color: teal;
+    text-decoration: none;
+}
+
+a:visited {
+    color: teal;
+}
+
+a:hover {
+    color: black;
+    font-size: 20px;
+}
+
+main {
+    width: 960px;
+    align-content: center;
+    background: white;
+    color: black;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-bottom: 60px;
+}
+
+main h1 {
+    color: teal;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+main hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#gallery {
+    width: 66%;
+    margin-left: 20px;
+}
+
+#gallery:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#gallery #optOne img {
+    display: block;
+    
+    margin-right: 5%;
+    height: 200px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#gallery #optTwo img {
+    display: inline;
+    
+    margin-right: 5%;
+    height: 200px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+#gallery:first-child {
+    margin-left: 0;
+}
+
+#gallery:last-child {
+    margin-right: 0;
+}
+
+footer {
+    background: grey;
+    color: white;
+    border-top: teal 5px solid;
+    height: 77px;
+    width: 100%;
+    text-align: center;
+}
